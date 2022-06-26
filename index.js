@@ -8,6 +8,11 @@ let state = {
         { title: "Go shopping", completed: false },
         { title: "Go to the gym", completed: false },
         { title: "Go to the movies", completed: false },
+        { title: "Rob a bank", completed: false },
+        { title: "kill 20 people", completed: false },
+        { title: "Get milk", completed: false },
+        { title: "Play games all night", completed: true },
+
     ],
     showChecked: false
 }
@@ -52,7 +57,7 @@ function render(){
     addItemInput.name = "add-item"
 
     let pEl2 = document.createElement("p")
-    pEl2.textContent = "Add item"
+    pEl2.textContent = "Add"
 
     addItemDiv.append(addItemInput, pEl2)
 

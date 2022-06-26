@@ -11,11 +11,13 @@ body {
 }
 
 .container{
-    border: 1px solid black;
-    padding: 30px;
-    width: 50%;
-    height: 80%;
-    background-color: #4169e150;
+    border: 1px solid gray;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px gray;
+    padding: 50px;
+    width: 25%;
+    height: 90%;
+    background-color: #f3f3f3;
 }
 
 .header-3{
